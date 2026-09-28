@@ -597,3 +597,27 @@ textarea { resize:vertical; }
     .editorial-title h3 { font-size: 36px; }
 }
 
+.featured-gallery {
+    display: grid;
+    grid-template-columns: 900px 450px;
+    grid-template-rows: 320px 320px;
+    gap: 20px;
+    width: fit-content;
+    margin: 80px auto 120px;
+}
+
+.featured-gallery-large {
+    grid-row: 1 / 3;
+    overflow: hidden;
+}
+
+.featured-gallery-small {
+    overflow: hidden;
+}
+
+.featured-gallery img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
