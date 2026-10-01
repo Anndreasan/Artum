@@ -118,6 +118,7 @@ h1 {
     line-height:.96;
     letter-spacing:-.06em;
     margin-bottom:25px;
+    color:#1677C8;
 }
 
 h2 {
@@ -712,4 +713,10 @@ textarea { resize:vertical; }
 
 .featured-gallery-heading h2 {
     margin: 0;
+}
+
+.logo img {
+    display: block;
+    width: 120px;
+    height: auto;
 }
