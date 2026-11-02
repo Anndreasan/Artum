@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nord 003 </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<div class="cursor-dot"></div>
+
+<script>
+const cursorDot = document.querySelector('.cursor-dot');
+
+document.addEventListener('mousemove', (e) => {
+    cursorDot.style.left = e.clientX + 'px';
+    cursorDot.style.top = e.clientY + 'px';
+});
+</script>
+
+<body>
+<header class="site-header">
+    <a class="logo" href="index.html">
+        <img src="images/logga.png" alt="ARTUM">
+    </a>
+
+    <button class="menu-toggle" aria-label="Öppna meny">☰</button>
+
+    <nav class="nav">
+        <a href="products.html">PRODUCTS</a>
+        <a href="projects.html">PROJECTS</a>
+        <a href="diy.html">DIY</a>
+        <a href="about.html">ABOUT</a>
+    </nav>
+</header>
+
+<main class="page">
+<a class="back-link" href="products.html">← Back to products</a>
+<section class="detail-hero">
+<div>
+        <p class="eyebrow">PRODUCT / 2025</p>
+        <h1>Nord 003</h1>
+        <p class="lead">A sculptural floor lamp combining bold blue accents with soft, ambient light and a minimalist wooden frame.</p>
+<dl class="specs">
+    <dt>Material</dt>
+    <dd>Pine strips and paper lampshade</dd>
+
+    <dt>Finish</dt>
+    <dd>Blue painted finish</dd>
+
+    <dt>Dimensions</dt>
+    <dd>
+        <span>Height: 750 mm</span><br>
+        <span>Width: 500 mm</span><br>
+        <span>Depth: 500 mm</span>
+    </dd>
+</dl>
+    </div>
+    <div class="media detail-image"><img src="images/lampaglob.png" alt="NORD 003"></div>
+</section>
+<section class="grid grid-3 gallery"><div class="media"><img src="images/lampagolvmaterial.jpg" alt="NORD 003 detail"></div><div class="media"><img src="images/lampagolvdetalj.png" alt="NORD 003 detail"></div><div class="media"><img src="images/lampagolvlyser.JPG" alt="NORD 003 detail"></div></section>
+</main>
+<footer class="site-footer">
+    <div>
+        <strong>ARTUM</strong>
+        <p>Independent creative studio.</p>
+    </div>
+    <div>
+        <a href="mailto:andreas_adde94@hotmail.com">andreas_adde94@hotmail.com</a>
+        <a href="https://www.instagram.com/artum.se/">Instagram</a>
+    </div>
+    <div>
+        <p>© 2026 ARTUM</p>
+    </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
